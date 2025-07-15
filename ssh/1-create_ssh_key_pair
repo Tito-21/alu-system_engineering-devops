@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# creating and ssh key pair with password hit: man ssh-keygen
-ssh-keygen -b 4096 -t rsa -f school -N "betty"
+# Script name: 1-crate_ssh_key_pair
+
+ssh-keygen -t rsa -b 4096 -f school -N betty
