@@ -1,6 +1,5 @@
-#!/usr/bin/env bash
-# my config file ssh
-IdentifyFile ~/.ssh/school
-PasswordAuthentication no
-HostName    52.91.59.143
-User	ubuntu
+Host magic-server
+    HostName 98.98.98.98
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
